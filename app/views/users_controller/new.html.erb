@@ -1,0 +1,24 @@
+
+<h1>Pour créer un utilisateur c'est par ici !</h1>
+
+
+	    <legend>Formulaire</legend>
+
+
+ <form action="users/create" method="POST">
+   		<input type="hidden" name="authenticity_token" 
+   		value = "<%=form_authenticity_token %>">
+    	<a>Entrez votre nom</a>
+    	<input type="text" name="username"> 
+</br>
+
+<a>Entrez votre texte</a>	
+	<input type="textarea" name="bio">
+	<input type="submit" name="envoyer">
+</form>
+
+
+
+</br>
+</br>
+<a>Merci</a>
